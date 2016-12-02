@@ -13,7 +13,7 @@ public class sec03 {
 		System.out.println("y=x^4+3*3-2x+1");
 		System.out.println("-----------------");
 		System.out.println("Dame x:");
-		x = tecla.nextInt();
+		x = tecla.nextDouble();
 		
 		y = Math.pow(x, 4)+3*3-2*x+1;
 		
